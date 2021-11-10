@@ -1,0 +1,80 @@
+@media(max-width:580px){
+  .diaryreport{
+    width: 100%;
+    height: 100%;
+  }
+  .emotionreport{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media(min-width:580px){
+  .diaryreport{
+    height:770px;
+  }
+  .emotionreport{
+    height:770px;
+  }
+}
+
+.diaryreport{
+  background-color: #DAEEDE;
+}
+.emotionreport{
+  background-color: #DAEEDE;
+}
+.profile-header2{
+  height: 8.5%;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  .back{
+    margin-top: 0px;
+  }
+}
+.profile-body{
+  height: 91.5%;
+  background-color: white;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  .title{
+    height: 6.5%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 13px;
+  }
+  .diary-chart{
+    margin-top: 70px;
+  }
+  .date-select{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    input{
+      font-weight: 400;
+      width: 40%;
+      height: 30px;
+      border: none;
+      background-color: #e9e9e9;
+      border-radius: 10px;
+      cursor: pointer;
+      &:hover {
+        animation-name: btnHover;
+        animation-duration: 0.2s;
+        animation-fill-mode: forwards;
+      }
+    }
+    span{
+      margin: 10px;
+    }
+  }
+  .report-ment{
+    margin: 60px;
+    h2{
+      font-size: 1.4rem;
+    }
+  }
+}
